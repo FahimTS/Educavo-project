@@ -1,0 +1,90 @@
+section#account {
+    padding: 0px;
+    position: relative;
+}
+
+.account-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.image-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.image-content h1 {
+    font-size: 45px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: rgb(215, 236, 243);
+}
+
+.image-content p {
+    font-size: 20px;
+    margin-top: 10px;
+    color: blanchedalmond;
+}
+section#login-form {
+}
+
+.form {
+    width: 715px;
+    background: #f9f8f8;
+    padding: 70px;
+    margin: auto;
+}
+
+.form h1 {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 500;
+    color: black;
+    margin-bottom: 25px;
+}
+
+.input-box input {border: none;padding: 14px 15px;outline: none;display: block;font-size: 15px;width: 75%;color: #505050;margin-bottom: 30px;border-radius: 3px;margin: 30px auto;background: #fff;}
+
+.input-box button {
+    width: 75%;
+    padding: 11px;
+    margin: 0px auto;
+    display: block;
+    font-size: 14px;
+    background: #ff5421;
+    text-transform: uppercase;
+    color: white;
+    border: 2px solid #ff5421;
+    font-weight: 700;
+    border-radius: 5px;
+    transition: 0.1s;
+    margin-bottom: 20px;
+}
+.input-box button:hover {
+    background: white;
+    color: red;
+    cursor: pointer;
+}
+.login-register-input {
+    text-align: center;
+    font-size: 15px;
+    color: #505050;
+}
+
+.login-register-input a {
+    color: #ff5421;
+    transition: 0.2s;
+}
+
+.login-register-input a:hover {
+    color: #505050;
+}
+.menu{
+    z-index: 1;
+}
